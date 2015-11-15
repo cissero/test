@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+ <head><title>Page html</title>    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!--<link rel="stylesheet/less" type="text/css" href="styles.less">
+    <script src="less.js" type="text/javascript"></script>-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  
+  <script type="text/javascript" src="index.html.js"> </script>
+
+ </head>
+ <body>
+  <nav>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Présentation
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript: insertBodyPresentation();">Présentation du projet</a></li>
+                <li><a href="javascript: insertBodyActors();">Acteurs</a></li>
+                <li><a href="javascript: insertBodyFinancialReports();">Rapports financier</a></li>
+                <li><a href="javascript: insertBodyActivitiesReports();">Rapports d'activité</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript: insertBodyPartners();">Partenaires</a></li>
+            <li><a href="javascript: insertBodyDonation();">Faire un don</a></li>
+             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Devenir bénévole
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript: insertBodyTutor();">Tuteur distant</a></li>
+                <li><a href="javascript: insertBodyEncadreur();">Encadreur</a></li>
+                <li><a href="#">Bénévole administratif</a></li>
+              </ul>
+            </li>
+            <!--TODO : changer le chemin-->
+            <li><a href="javascript: insertBodyLogin();">Connexion</a></li>
+
+         </ul>
+
+    </nav>
+     <div id = "part_to_change">
+        <img id="image" src="images/mandela.jpg" alt="background image" > 
+     </div>
+<article>
+  <!--<h1>Jappalante</h1>-->
+  <footer>
+    <!-- TODO : change the footer -->
+    <p>Dernière modification, le 
+      <!--<time datetime="2012-02-02">2 février 2012</time>-->
+    </p>
+  </footer>
+</article>
+ </body>
+  
+</html>
